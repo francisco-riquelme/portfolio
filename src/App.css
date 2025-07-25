@@ -771,6 +771,9 @@ ul {
     justify-content: center;
     transition: var(--transition);
     border: var(--border);
+    cursor: pointer;
+    color: var(--text-color);
+    text-decoration: none;
 }
 
 .project-link:hover {

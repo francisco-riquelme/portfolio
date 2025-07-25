@@ -304,8 +304,12 @@ function App() {
                     <span className="project-tag">GSAP</span>
                   </div>
                   <div className="project-links">
-                    <a href="#" className="project-link"><i className="fas fa-external-link-alt"></i></a>
-                    <a href="#" className="project-link"><i className="fab fa-github"></i></a>
+                    <button className="project-link" onClick={() => window.open('https://example.com', '_blank')} aria-label="Ver proyecto">
+                      <i className="fas fa-external-link-alt"></i>
+                    </button>
+                    <button className="project-link" onClick={() => window.open('https://github.com/francisco-riquelme', '_blank')} aria-label="Ver código en GitHub">
+                      <i className="fab fa-github"></i>
+                    </button>
                   </div>
                 </div>
               </div>
@@ -324,8 +328,12 @@ function App() {
                     <span className="project-tag">Canvas</span>
                   </div>
                   <div className="project-links">
-                    <a href="#" className="project-link"><i className="fas fa-external-link-alt"></i></a>
-                    <a href="#" className="project-link"><i className="fab fa-github"></i></a>
+                    <button className="project-link" onClick={() => window.open('https://example.com', '_blank')} aria-label="Ver proyecto">
+                      <i className="fas fa-external-link-alt"></i>
+                    </button>
+                    <button className="project-link" onClick={() => window.open('https://github.com/francisco-riquelme', '_blank')} aria-label="Ver código en GitHub">
+                      <i className="fab fa-github"></i>
+                    </button>
                   </div>
                 </div>
               </div>
@@ -344,8 +352,12 @@ function App() {
                     <span className="project-tag">JavaScript</span>
                   </div>
                   <div className="project-links">
-                    <a href="#" className="project-link"><i className="fas fa-external-link-alt"></i></a>
-                    <a href="#" className="project-link"><i className="fab fa-github"></i></a>
+                    <button className="project-link" onClick={() => window.open('https://example.com', '_blank')} aria-label="Ver proyecto">
+                      <i className="fas fa-external-link-alt"></i>
+                    </button>
+                    <button className="project-link" onClick={() => window.open('https://github.com/francisco-riquelme', '_blank')} aria-label="Ver código en GitHub">
+                      <i className="fab fa-github"></i>
+                    </button>
                   </div>
                 </div>
               </div>
